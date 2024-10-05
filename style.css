@@ -1,7 +1,5 @@
 
-*{
-    background-color: rgb(214, 220, 220);
-}
+
 .art{
     text-decoration: none;
 }
@@ -33,10 +31,26 @@ nav a{
     border: 0px;
     padding: 5px 10px 5px 10px ;
 
+
     border-color: none;
+}
+.btn-primary:hover {
+    background-color: #FF4433; /* Changes to a lighter shade on hover */
+    cursor: pointer;          /* Changes the cursor to a pointer */
+    transform: scale(1.05);   /* Slightly enlarges the button */
+    transition: 0.3s ease;    /* Smooth transition effect */
 }
 nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+.beader {
+   background-color: #2e86de;
+   margin:0px 0px 0px 0px ;
+   padding: 10px 10px 0px 10px;
+
+}
+.banner{
+    display: flex;
 }
